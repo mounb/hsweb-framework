@@ -37,7 +37,8 @@
         <module>hsweb-concurrent</module>
         <module>hsweb-boost</module>
         <module>hsweb-thirdparty</module>
-        <module>hsweb3-demo</module>
+        <module>hsweb-demo</module>
+		<module>demo</module>
     </modules>
 
     <packaging>pom</packaging>
