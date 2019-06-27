@@ -64,7 +64,7 @@ var menus = [{
     "path": "0I2J",
     "sortIndex": 4,
     "status": 1
-}}];
+}];
 
 
 var user = [
