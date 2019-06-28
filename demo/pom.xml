@@ -59,7 +59,7 @@
                 <version>${spring.boot.version}</version>
                 <configuration>
                     <!--启动类-->
-                    <mainClass>org.hswebframework.web.demo.Application</mainClass>
+                    <mainClass>com.demo.DemoApplication</mainClass>
                     <layout>ZIP</layout>
                 </configuration>
                 <executions>

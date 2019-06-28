@@ -1,3 +1,4 @@
+/*
 package org.hswebframework.web.demo;
 
 import io.github.swagger2markup.GroupBy;
@@ -102,3 +103,4 @@ public class DemoApplicationTests {
 	}
 
 }
+*/
