@@ -39,6 +39,7 @@
         <module>hsweb-thirdparty</module>
         <module>hsweb-demo</module>
 		<module>demo</module>
+        <module>test-demo</module>
     </modules>
 
     <packaging>pom</packaging>
