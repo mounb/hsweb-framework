@@ -1,3 +1,4 @@
+/*
 package com.demo.rabbitmq;
 
 import com.rabbitmq.client.Channel;
@@ -21,3 +22,4 @@ public class Send {
         }
     }
 }
+*/

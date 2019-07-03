@@ -9,6 +9,7 @@ import org.hswebframework.web.dev.tools.EnableDevTools;
 import org.hswebframework.web.loggin.aop.EnableAccessLogger;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.context.event.EventListener;
@@ -20,6 +21,7 @@ import org.springframework.context.event.EventListener;
 @EnableAopAuthorize //启用aop权限控制
 @EnableSwagger2Doc
 @EnableDevTools //开启开发人员工具，生产环境慎用
+@EnableAutoConfiguration
 public class DemoApplication {
 
     public static void main(String[] args) {

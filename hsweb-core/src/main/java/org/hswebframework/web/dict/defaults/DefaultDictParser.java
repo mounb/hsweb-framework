@@ -3,7 +3,6 @@ package org.hswebframework.web.dict.defaults;
 import org.hswebframework.web.dict.DictDefine;
 import org.hswebframework.web.dict.DictParser;
 import org.hswebframework.web.dict.EnumDict;
-import org.hswebframework.web.dict.ItemDefine;
 
 import java.util.stream.Collectors;
 
