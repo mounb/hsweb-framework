@@ -10,7 +10,7 @@ public class Sender {
     @Autowired
     private AmqpTemplate amqpTemplate;
 
-    public void send(String user) {
+    public void send(Object user) {
         System.out.println("Sender : " + user);
        // Message message = new Message(user.getBytes(),new MessageProperties());
         this.amqpTemplate.convertAndSend("miner", user);
