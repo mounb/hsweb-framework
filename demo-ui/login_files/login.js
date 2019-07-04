@@ -2,7 +2,7 @@ var nowCaptchaToken;
 var API_BASE_PATH = window.top.API_BASE_PATH || '/';
 
 function reset() {
-    LUOCAPTCHA.reset();
+/*    LUOCAPTCHA.reset();*/
     nowCaptchaToken = undefined
     $("#password").val("");
     $("#login-button").text("立即登录").removeAttr("disabled");
@@ -25,10 +25,10 @@ function doLogin() {
         $("#password").focus();
         return;
     }
-    if (!nowCaptchaToken) {
+/*    if (!nowCaptchaToken) {
         alert("请先完成人机验证");
         return
-    }
+    }*/
     $("#login-button").attr("disabled", "disabled").text("登录中...");
 
     function handleResponse(e) {
@@ -54,8 +54,8 @@ function doLogin() {
         data: JSON.stringify(
             {
                 username: username,
-                password: password,
-                token: nowCaptchaToken
+                password: password
+               /* token: nowCaptchaToken*/
             }
         ),
         contentType: "application/json",
